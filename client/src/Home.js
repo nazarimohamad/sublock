@@ -1,8 +1,9 @@
 import React from 'react';
-import Hero from './Hero';
-import Wipes from './Wipes';
 import AOS from 'aos';
 import { ParallaxProvider } from 'react-scroll-parallax';
+import Hero from './Hero';
+import Wipes from './Wipes';
+import Contact from './Contact';
 
 const Home = () => {
   AOS.init()
@@ -10,6 +11,7 @@ const Home = () => {
     <ParallaxProvider>
       <Hero />
       <Wipes />
+      <Contact />
     </ParallaxProvider>
   );
 }
