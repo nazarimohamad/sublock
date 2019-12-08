@@ -1,5 +1,5 @@
 import React from 'react';
-import ai from './images/ai1.jpg'
+import ai from './images/ai3.png'
 import './style.scss'
 
 
@@ -12,12 +12,11 @@ const Artificial = () => {
       </div>
       <div className='product_text' data-aos="fade-up-left" data-aos-duration="800" data-aos-delay="1500">
         <h2>Artificial Inteligence </h2>
-        <p>Lorem dolor sit amet, consectetur adipiscing elit. Pellentesque vel mi ut
-        velit tempor aliquam eget eget enim. Proin cursus eleifend pretium. Aliquam cursus
-        pellentesque interdum. Vivamus placerat id leo a pellentesque. Vivamus a congue urna,
-        sed porta eros. Etiam finibus magna et est aliquam, sed semper libero facilisis.
-        Donec lectus lorem, rhoncus vitae quam eget, vulputate gravida elit. Praesent ultricies
-        eros id velit condimentum, eu ultrices nisl consequat.</p>
+        <p>We are using AI and machine learning to maximize users’ shopping experience, improve the efficiency
+          of sales systems through intelligent automation, and enhance the sales processes using predictive
+          analytics and guided sales processes. Although the core of the platform is built on innovation in
+          blockchain technology, we believe our AI algorithm is special and has an innovation pattern that make
+          us the first and the best in this industry.</p>
       </div>
     </div>
   </div>

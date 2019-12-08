@@ -1,5 +1,5 @@
 import React from 'react';
-import sus from './images/sus1.jpg';
+import sus from './images/sus5.jpg';
 
 const Sustanable = () => {
   return(
@@ -10,12 +10,11 @@ const Sustanable = () => {
         </div>
         <div className='product_text' data-aos="zoom-in" data-aos-duration="800">
           <h2>Sustainable </h2>
-          <p>Lorem dolor sit amet, consectetur adipiscing elit. Pellentesque vel mi ut
-          velit tempor aliquam eget eget enim. Proin cursus eleifend pretium. Aliquam cursus
-          pellentesque interdum. Vivamus placerat id leo a pellentesque. Vivamus a congue urna,
-          sed porta eros. Etiam finibus magna et est aliquam, sed semper libero facilisis.
-          Donec lectus lorem, rhoncus vitae quam eget, vulputate gravida elit. Praesent ultricies
-          eros id velit condimentum, eu ultrices nisl consequat.</p>
+          <p>We are a high-end sustainable apparel marketplace where every designer
+            could sell his/her taste in fashion with sustainable materials. We partner with the best
+            ethical designers in the world that think quality is over quantity and price of each item would be
+            suitable for the whole sustainable fashion shoppers. Our sustainable product is better for the
+            health and the land of farmers, and also protect wildlife.</p>
         </div>
       </div>
     </div>

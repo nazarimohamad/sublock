@@ -14,9 +14,6 @@ class Footer extends Component {
     }
   }
 
-  // 3450
-  // 3900
-
   componentDidMount() {
 		window.addEventListener('scroll', this.handleScroll);
 	};
@@ -25,13 +22,11 @@ class Footer extends Component {
 		window.removeEventListener('scroll', this.handleScroll);
 	};
 
-//3476-3726
   handleScroll = (event) => {
 		let scrollTop = window.scrollY,
         minWidth = 1400,
         width = Math.min(minWidth, 1400 - (3750 - scrollTop))
         width = width/14
-        console.log(scrollTop)
 		this.setState({
 			style: {
         width: width
@@ -64,8 +59,8 @@ export default Footer;
 
 
 const data = [
-  {title: 'first one', lists:['about us', 'another time', 'second time', 'fourth']},
-  {title: 'first one', lists:['about us', 'another time', 'second time', 'fourth']},
-  {title: 'first one', lists:['about us', 'another time', 'second time', 'fourth']},
-  {title: 'first one', lists:['about us', 'another time', 'second time', 'fourth']},
+  {title: 'Account', lists:['Account', 'Saved Items', 'Orders', 'Return']},
+  {title: 'Company', lists:['About', 'Privacy', 'Terms']},
+  {title: 'Partnership', lists:['Stores', 'Designers', 'Factories']},
+  {title: 'Our media', lists:['Facebook', 'Instagram', 'Twitter']},
 ]

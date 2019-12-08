@@ -14,25 +14,29 @@ const Contact = () => {
   const classes = useStyles();
   const handleSubmit = async (e) => {
     e.preventDefault();
-
-    axios.post('/contact', {
-      name,
-      email,
-      message
-    })
-    .then(response => {
-      setName('')
-      setEmail('')
-      setMessage('')
-      console.log(response)
-    })
-    .catch(error => {
-      console.log(error.response)
-    })
+    sendMessage();
   }
+
+
+  const sendMessage = () => {
+    const data = {name, email, message};
+    axios.post('/contact', data)
+      .then(response => {
+        console.log(response)
+      })
+      .catch(error => {
+        console.log(error)
+      })
+
+      setName('');
+      setEmail('');
+      setMessage('');
+      alert('message sent successfuly');
+  }
+
   return(
     <div className='contact' data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
-      <h2>you are wellcome to contact to us</h2>
+      <h2>You are wellcome to contact to us</h2>
       <form onSubmit={handleSubmit} className={classes.root}>
       <TextField
           label="name"

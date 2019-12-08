@@ -55,15 +55,15 @@ class Hero extends Component {
             transitionTime={400}>
               <div>
                   <img src={fashion05} alt={fashion05} className='image'/>
-                  <p className="legend" style={{color:'rgb(4, 43, 46)'}}>Legend one says that i=this is icons for the best icon 1</p>
+                  <p className="legend" style={{color:'rgb(4, 43, 46)'}}>Spectacular design, comfortable and enjoy  in them</p>
               </div>
               <div>
                   <img src={fashion02} alt={fashion02} className='image'/>
-                  <p className="legend" style={{color:'white !important'}}>Legend is about sex shop in the resturant and fuck the beautiful girl 2</p>
+                  <p className="legend" style={{color:'white !important'}}>Recycle, traceable and powerd by AI and blockchain</p>
               </div>
               <div>
                   <img src={fashion01} alt={fashion01} className='image'/>
-                  <p className="legend" style={{color:'white'}}>Legend is nothing just another sex with estonian girls in the street3</p>
+                  <p className="legend" style={{color:'white'}}>One platfrom for business, designers and shoppers</p>
               </div>
           </Carousel>
         </div>

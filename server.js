@@ -6,10 +6,12 @@ const cors = require('cors');
 const path = require('path');
 
 const PORT = process.env.PORT || 5000;
+const USER_EMAIL = process.env.USER_EMAIL;
+const USER_PASS = process.env.USER_PASS;
+
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: true}));
 
 app.post('/contact', (req, res) => {
 
@@ -28,29 +30,20 @@ app.post('/contact', (req, res) => {
       let transporter = nodemailer.createTransport({
         host: "smtp.gmail.com",
         port: 587,
-        secure: false, // true for 465, false for other ports
+        secure: false,
         auth: {
-          user: 'nazari.mhd21@gmail.com', // generated ethereal user
-          pass: 'Picker.21' // generated ethereal password
+          user: USER_EMAIL,
+          pass: USER_PASS
         }
       });
       let info = transporter.sendMail({
-        from: req.body.email, // sender address
-        to: 'ryannazari21@gmail.com', // list of receivers
-        subject: "Hello ✔", // Subject line
-        text: "Hello world?", // plain text body
-        html: output // html body
-      }, (err, res) => {
-        if(err) {
-          res.json({
-            msg: 'fail'
-          })
-        } else {
-          res.json({msg: 'success'})
-        }
+        from: req.body.email,
+        to: 'ryannazari21@gmail.com',
+        subject: "Hello ✔",
+        text: "Hello world?",
+        html: output
       });
-
-      console.log("Message sent: %s", info.messageId);
+      console.log("Message sent");
 })
 
 
