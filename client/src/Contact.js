@@ -36,7 +36,8 @@ const Contact = () => {
 
   return(
     <div className='contact' data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
-      <h2>You are wellcome to contact to us</h2>
+      <hr style={{width:'5%', height:'5px', backgroundColor:'#003443', marginBottom:'15%'}} />
+      <h2>You are wellcome to send us message</h2>
       <form onSubmit={handleSubmit} className={classes.root}>
       <TextField
           label="name"
