@@ -1,5 +1,6 @@
 import React from 'react';
 import mohamad from '../images/mohamad.jpg';
+import payam from '../images/payam.jpeg';
 import './about.scss';
 
 
@@ -26,7 +27,6 @@ const About = () => {
           </div>
         </div>
       ))}
-
     </section>
   );
 }
@@ -34,8 +34,14 @@ const About = () => {
 export default About;
 
 
+const payamDescription = "Interested in finding valuable insights from the data, Enthusiastic to learn new technologies, Passionate about implementing Data Science techniques and expand the domain of my knowledge base.\
+Coding is my passion, which gives me inner peace. Professional with the multidisciplinary academic background of 'Mathematics'.\
+Strong hands-on Statistical modeling, Machine learning, Deep learning, AI, NLP, Python, and SQL."
+
+
 const team = [
-  {img: mohamad, order: 0, name: 'Payam Rafiee', description: 'thi is payam and he is good in blockchain'},
-  {img: mohamad, order: 1, name: 'Maryam Rafiee', description: 'thi is payam and he is good in blockchain'},
+  {img: payam, order: 0, name: 'Payam Rafiee', description: payamDescription},
+  {img: payam, order: 1, name: 'Maryam Rafiee', description: 'thi is payam and he is good in blockchain'},
   {img: mohamad, order: 0, name: 'Mohamad Nazari', description: 'Full stack web and ios developer. have one year experiene in Blockchain and hands on AI'},
 ]
+
