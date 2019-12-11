@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import './style.scss';
-import fashion01 from './images/fashion07.jpeg';
-import fashion02 from './images/fashion02.jpg';
-import fashion05 from './images/fashion05.jpeg';
+import './home.scss';
+import fashion01 from '../images/fashion07.jpeg';
+import fashion02 from '../images/fashion02.jpg';
+import fashion05 from '../images/fashion05.jpeg';
 
 
 class Hero extends Component {

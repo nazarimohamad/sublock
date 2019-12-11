@@ -16,7 +16,7 @@
     top: 0;
     left: 0;
     z-index: -1;
-    background-image: url('./images/team3.jpeg');
+    background-image: url('../images/team3.jpeg');
     background-size: cover;
     background-position: center;
 
@@ -56,6 +56,8 @@
 
       img {
         width: 100%;
+        object-fit: cover;
+        object-position: right;
       }
     }
 

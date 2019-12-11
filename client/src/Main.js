@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Home from './Home';
+import Home from './Home/Home';
 // import { ParallaxProvider } from 'react-scroll-parallax';
-import Terms from './Terms';
-import PrivacyPolicy from './PrivacyPolicy';
-import About from './About';
+import Terms from './TermsAndConditions/Terms';
+import PrivacyPolicy from './Privacy/PrivacyPolicy';
+import About from './About/About.js';
 
 
 
