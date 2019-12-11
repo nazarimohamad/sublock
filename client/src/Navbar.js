@@ -11,9 +11,9 @@ const Navbar = () => {
       </div>
       <div className='navbar_items'>
         <ul className='navbar_link'>
-          <li>home</li>
-          <li>about</li>
-          <li><Link to='terms-and-conditions'>project</Link></li>
+          {/* <li>home</li> */}
+          <li><Link className='link' to='about'>about</Link></li>
+          <li><Link className='link' to='terms-and-conditions'>blog</Link></li>
           <li>product</li>
         </ul>
       </div>
