@@ -8,7 +8,8 @@
     "heroku-postbuild": "cd client && yarn install && yarn build"
   },
   "engines": {
-    "node": "12.2.0"
+    "node": "12.2.0",
+    "yarn": "1.17.3"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
