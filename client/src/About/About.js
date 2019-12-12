@@ -38,10 +38,12 @@ const payamDescription = "Interested in finding valuable insights from the data,
 Coding is my passion, which gives me inner peace. Professional with the multidisciplinary academic background of 'Mathematics'.\
 Strong hands-on Statistical modeling, Machine learning, Deep learning, AI, NLP, Python, and SQL."
 
+const maohamadDescription = "a Full-stack web developer with industry experience building websites and web applications. I specialize in JavaScript (React for the front-end and Node.js for back-end) and have professional \
+experience working with Blockchain and AI. I also have experience working with Swift and iOS applications."
 
 const team = [
   {img: payam, order: 0, name: 'Payam Rafiee', description: payamDescription},
   {img: payam, order: 1, name: 'Maryam Rafiee', description: 'thi is payam and he is good in blockchain'},
-  {img: mohamad, order: 0, name: 'Mohamad Nazari', description: 'Full stack web and ios developer. have one year experiene in Blockchain and hands on AI'},
+  {img: mohamad, order: 0, name: 'Mohamad Nazari', description:  maohamadDescription},
 ]
 
