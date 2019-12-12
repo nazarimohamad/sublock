@@ -1,5 +1,5 @@
 {
-  "name": "sustainable",
+  "name": "Sublock",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,7 +25,10 @@
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended"
+    ]
   },
   "browserslist": {
     "production": [
@@ -37,6 +40,38 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "husky": "^3.1.0",
+    "lint-staged": "^10.0.0-beta.7",
+    "prettier": "^1.19.1"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": true,
+    "arrowParens": "always",
+    "endOfLine": "auto"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "post-commit": "git update-index --again"
+    }
+  },
+  "lint-staged": {
+    "/src/**.{json,css,md}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.+(js|jsx)": [
+      "eslint --fix",
+      "git add"
     ]
   }
 }
