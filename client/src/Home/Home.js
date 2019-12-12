@@ -4,7 +4,6 @@ import Hero from './Hero';
 import Wipes from './Wipes';
 import Contact from './Contact';
 
-
 const Home = () => {
   return (
     <ParallaxProvider>
@@ -13,6 +12,6 @@ const Home = () => {
       <Contact />
     </ParallaxProvider>
   );
-}
+};
 
 export default Home;

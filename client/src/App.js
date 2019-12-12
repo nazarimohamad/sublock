@@ -3,11 +3,10 @@ import Main from './Main';
 import AOS from 'aos';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import {BrowserRouter as Router} from 'react-router-dom';
-
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
-  AOS.init()
+  AOS.init();
   return (
     <Router>
       <Navbar />
