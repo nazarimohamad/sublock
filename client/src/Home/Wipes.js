@@ -5,8 +5,7 @@ import { Tween, Timeline } from 'react-gsap';
 import Sustanable from './Sustanable';
 import Blockchain from './Blockchain';
 import Artificial from './Aritificial';
-import './home.scss'
-
+import './home.scss';
 
 const SectionWipes2Styled = styled.div`
   overflow: hidden;
@@ -48,26 +47,20 @@ const SectionWipes2Styled = styled.div`
 const Wipes = () => (
   <SectionWipes2Styled>
     <Controller>
-      <Scene
-        triggerHook="onLeave"
-        duration="300%"
-        pin
-      >
-        <Timeline
-          wrapper={<div id="pinContainer" />}
-        >
-          <section className="panel"><Sustanable /></section>
-          <Tween
-            from={{ x: '100%' }}
-            to={{ x: '0%' }}
-          >
-            <section className="panel turqoise"><Blockchain /></section>
+      <Scene triggerHook="onLeave" duration="300%" pin>
+        <Timeline wrapper={<div id="pinContainer" />}>
+          <section className="panel">
+            <Sustanable />
+          </section>
+          <Tween from={{ x: '100%' }} to={{ x: '0%' }}>
+            <section className="panel turqoise">
+              <Blockchain />
+            </section>
           </Tween>
-          <Tween
-            from={{ y: '100%' }}
-            to={{ y: '0%' }}
-          >
-            <section className="panel green"><Artificial /></section>
+          <Tween from={{ y: '100%' }} to={{ y: '0%' }}>
+            <section className="panel green">
+              <Artificial />
+            </section>
           </Tween>
           {/* <Tween
             from={{ y: '-100%' }}
