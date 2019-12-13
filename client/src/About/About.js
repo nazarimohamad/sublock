@@ -2,7 +2,7 @@ import React from 'react';
 import mohamad from '../images/mohamad.jpg';
 import payam from '../images/payam.jpeg';
 import maryam from '../images/maryam.jpeg';
-import './about.scss';
+import '../style.scss';
 
 const About = () => {
   return (
