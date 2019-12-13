@@ -37,8 +37,9 @@
 
     p {
       width: 45%;
-      font-size: 1.7rem;
+      font-size: 1.5rem;
       color: rgb(90, 92, 94);
+      line-height: 1.3;
       @include centerPosition()
     }
   }
@@ -72,8 +73,9 @@
       }
 
       p {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         color: rgb(90, 92, 94);
+        line-height: 1.6;
       }
     }
 

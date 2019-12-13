@@ -1,6 +1,6 @@
 import React from 'react';
 import block from '../images/fashion004.jpg';
-import './home.scss';
+import '../style.scss';
 
 const Blockchain = () => {
   return (
@@ -13,13 +13,13 @@ const Blockchain = () => {
           data-aos-delay="1500">
           <h2>Blockchain </h2>
           <p>
-            A blockchain is a time-stamped series of immutable records of data
+            Collaborative development of Hyperledger is a time-stamped series of immutable records of data
             that is managed by a cluster of computers joining into that
             blockchain. It enhances transparency as all the information stored
             cannot be altered. It reduces frauds as the nature of its
             immutability increases confidence in data integrity. It eliminates
             the need for a third party thus reducing overhead costs. So,
-            blockchain technology blockchain can track the product’s journey
+            hyperledger technology can track the product’s journey
             from supply chain to retailers.
           </p>
         </div>

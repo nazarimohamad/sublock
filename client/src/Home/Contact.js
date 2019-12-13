@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { TextField, Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
-import './home.scss';
+import '../style.scss';
 
 const Contact = () => {
   const [name, setName] = useState(''),

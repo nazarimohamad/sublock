@@ -1,6 +1,6 @@
 import React from 'react';
 import ai from '../images/ai3.png';
-import './home.scss';
+import '../style.scss';
 
 const Artificial = () => {
   return (

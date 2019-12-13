@@ -1,6 +1,7 @@
 import React from 'react';
 import mohamad from '../images/mohamad.jpg';
 import payam from '../images/payam.jpeg';
+import maryam from '../images/maryam.jpeg';
 import './about.scss';
 
 const About = () => {
@@ -46,8 +47,11 @@ Strong hands-on Statistical modeling, Machine learning, Deep learning, AI, NLP, 
 const maohamadDescription = "A Full-stack web developer with industry experience building websites and web applications. I specialize in JavaScript (React for the front-end and Node.js for back-end) and have professional \
 experience working with Blockchain and AI. I also have experience working with Swift and iOS applications."
 
+const maryamDescription = "An English instructor with the passion in art design and architecture. Have strong knowledge in using different software to design interior or exterior of buildings and give them divers looks. \
+Carried over the strong vision in design to UI/UX part of mobile and web application development to help creat intuitive, user friendly and interactive apps."
+
 const team = [
   {img: payam, order: 0, name: 'Payam Rafiee', description: payamDescription},
-  {img: payam, order: 1, name: 'Maryam Rafiee', description: 'thi is payam and he is good in blockchain'},
+  {img: maryam, order: 1, name: 'Maryam Rafiee', description: maryamDescription},
   {img: mohamad, order: 0, name: 'Mohamad Nazari', description:  maohamadDescription},
 ];

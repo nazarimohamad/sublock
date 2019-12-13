@@ -1,3 +1,8 @@
+@import './home/home.scss';
+@import './About/about.scss';
+
+
+
 @mixin linkStyle {
   cursor: pointer;
   color: black;
@@ -10,6 +15,12 @@ $white: #fff;
 $medium: 880px;
 $small: 550px;
 
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gelasio', serif;
+}
 
 //*****************
 // navbar

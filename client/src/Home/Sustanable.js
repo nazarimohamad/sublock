@@ -1,6 +1,6 @@
 import React from 'react';
 import sus from '../images/sus5.jpg';
-import './home.scss';
+import '../style.scss';
 
 const Sustanable = () => {
   return (
