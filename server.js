@@ -16,7 +16,7 @@ app.use(bodyParser.json());
 app.post('/contact', (req, res) => {
 
     const output = `
-      <p>New message for boylando company</p>
+      <p>New message for Sublock company</p>
       <h3>Contact Details</h3>
       <ul>
         <li>Name: ${req.body.name}</li>
