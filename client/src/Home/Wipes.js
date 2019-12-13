@@ -5,7 +5,7 @@ import { Tween, Timeline } from 'react-gsap';
 import Sustanable from './Sustanable';
 import Blockchain from './Blockchain';
 import Artificial from './Aritificial';
-import '../style.scss';
+import './home.scss';
 
 const SectionWipes2Styled = styled.div`
   overflow: hidden;

@@ -1,6 +1,6 @@
 import React from 'react';
 import block from '../images/fashion004.jpg';
-import '../style.scss';
+import './home.scss';
 
 const Blockchain = () => {
   return (
