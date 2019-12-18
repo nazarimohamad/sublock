@@ -59,7 +59,7 @@ export default Footer;
 const data = [
   {
     title: 'Address',
-    lists: ['Luise 38', 'Tallinn, Estonia', '+372 53866458']
+    lists: ['Sakala tn 7-2', 'Tallinn, Estonia', '+372 53866458']
   },
   // {title: 'Company', lists:['About', 'privacy-policy', 'terms-and-conditions']},
   { title: 'Partnership', lists: ['Stores', 'Designers', 'Factories'] }

@@ -26,7 +26,7 @@ const styles = {
   },
   container: {
     position: 'absolute',
-    width: '60%',
+    width: '70%',
     height: '70vh',
     boxShadow: '0 0 25px 2px rgba(0,0,0, 0.3)',
     padding: '2%',
@@ -50,7 +50,7 @@ const styles = {
 
 const privacyPolicy = [
   "Your privacy is important to us. It is sublock's policy to respect your privacy regarding any\
-  information we may collect from you across our website, http://seylebas.herokuapp.com/, and other sites we own and operate.",
+  information we may collect from you across our website, http://sublock.co/, and other sites we own and operate.",
   'We only ask for personal information when we truly need it to provide a service to you. We collect it by fair and\
   lawful means, with your knowledge and consent.',
   'We also let you know why we’re collecting it and how it will be used.',

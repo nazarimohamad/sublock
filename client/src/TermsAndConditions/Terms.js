@@ -30,10 +30,11 @@ const styles = {
   },
   container: {
     // position:'absolute',
-    width: '60%',
+    width: '70%',
     // height: '70vh',
     boxShadow: '0 0 25px 2px rgba(0,0,0, 0.3)',
     padding: '2%'
+
     // overflowY: 'scroll',
   },
   headline: {
@@ -233,7 +234,7 @@ our website periodically for changes. Your continued use of or access to our web
 these Terms of Service constitutes acceptance of those changes.';
 
 const section20 =
-  'Questions about the Terms of Service should be sent to us at ryannazari21@gmail.com.';
+  'Questions about the Terms of Service should be sent to us at payam@bteks.co.';
 
 const terms = [
   { title: 'OVERVIEW', description: overviewDesc },

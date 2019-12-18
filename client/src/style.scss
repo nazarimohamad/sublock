@@ -30,7 +30,8 @@ $small: 550px;
   display: grid;
   grid-template-columns: 5% 1fr 1fr 5%;
   align-items: center;
-  background-color: $white;
+  background-color: rgba(255, 255, 255, 0.5);
+  // opacity: 0.6;
   // color: $lightOrange;
 
 
@@ -51,6 +52,10 @@ $small: 550px;
 
     img {
       width: 88px;
+
+      @media screen and (max-width: $medium) {
+        width: 50px;
+      }
     }
   }
 
@@ -138,6 +143,18 @@ $small: 550px;
 
     li {
       font-size: 0.6rem;
+    }
+  }
+
+  .footer_copyRight {
+    p {
+      @media screen and(max-width: $medium) {
+        font-size: 0.9rem;
+      }
+
+      @media screen and(max-width: $small) {
+        font-size: 0.7rem;
+      }
     }
   }
 }
