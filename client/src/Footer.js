@@ -39,8 +39,15 @@ class Footer extends Component {
             </ul>
           </div>
         </div>
-        <div className='footer_copyRight'>
-          <p style={{padding: '2px', color:'rgba(82,102,122)', textAlign:'center'}}>Sublock is a Bteks branch @copyright-2019</p>
+        <div className="footer_copyRight">
+          <p
+            style={{
+              padding: '2px',
+              color: 'rgba(82,102,122)',
+              textAlign: 'center'
+            }}>
+            Sublock is a Bteks branch @copyright-2019
+          </p>
         </div>
       </div>
     );

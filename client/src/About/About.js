@@ -39,19 +39,31 @@ const About = () => {
 
 export default About;
 
-
-const payamDescription = "Interested in finding valuable insights from the data, Enthusiastic to learn new technologies, Passionate about implementing Data Science techniques and expand the domain of my knowledge base.\
+const payamDescription =
+  "Interested in finding valuable insights from the data, Enthusiastic to learn new technologies, Passionate about implementing Data Science techniques and expand the domain of my knowledge base.\
 Coding is my passion, which gives me inner peace. Professional with the multidisciplinary academic background of 'Mathematics'.\
-Strong hands-on Statistical modeling, Machine learning, Deep learning, AI, NLP, Python, and SQL."
+Strong hands-on Statistical modeling, Machine learning, Deep learning, AI, NLP, Python, and SQL.";
 
-const maohamadDescription = "A Full-stack web developer with industry experience building websites and web applications. I specialize in JavaScript (React for the front-end and Node.js for back-end) and have professional \
-experience working with Blockchain and AI. I also have experience working with Swift and iOS applications."
+const maohamadDescription =
+  'A Full-stack web developer with industry experience building websites and web applications. I specialize in JavaScript (React for the front-end and Node.js for back-end) and have professional \
+experience working with Blockchain and AI. I also have experience working with Swift and iOS applications.';
 
-const maryamDescription = "An English instructor with the passion in art design and architecture. Have strong knowledge in using different software to design interior or exterior of buildings and give them divers looks. \
-Carried over the strong vision in design to UI/UX part of mobile and web application development to help creat intuitive, user friendly and interactive apps."
+const maryamDescription =
+  'An English instructor with the passion in art design and architecture. Have strong knowledge in using different software to design interior or exterior of buildings and give them divers looks. \
+Carried over the strong vision in design to UI/UX part of mobile and web application development to help creat intuitive, user friendly and interactive apps.';
 
 const team = [
-  {img: payam, order: 0, name: 'Payam Rafiee', description: payamDescription},
-  {img: maryam, order: 1, name: 'Maryam Rafiee', description: maryamDescription},
-  {img: mohamad, order: 0, name: 'Mohamad Nazari', description:  maohamadDescription},
+  { img: payam, order: 0, name: 'Payam Rafiee', description: payamDescription },
+  {
+    img: maryam,
+    order: 1,
+    name: 'Maryam Rafiee',
+    description: maryamDescription
+  },
+  {
+    img: mohamad,
+    order: 0,
+    name: 'Mohamad Nazari',
+    description: maohamadDescription
+  }
 ];
